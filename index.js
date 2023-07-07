@@ -6,24 +6,41 @@ const questions = ["What is the name of your project?","What does your program d
 
 
 const test = function(response) {
-    return `#${response.title}
-    ##Table of contents
-    links
-    ##Description
-    ${response.description}
-    ##Installation
-    ${response.installation}
-    ##Usage
-    ${response.usage}
-    ##License
-    ${response.license}
-    ##Contributing
-    ${response.contributors}
-    ##Tests
-    ${response.tests}
-    ##Questions
-    ${response.username}
-    ${response.email}`
+    return `# ${response.title}
+
+## Table of contents
+
+[Description](#description)
+[Installation](#installation)
+
+## Description
+
+${response.description}
+
+## Installation
+
+${response.installation}
+
+## Usage
+
+${response.usage}
+
+## License
+
+${response.license}
+
+## Contributing
+
+${response.contributors}
+
+## Tests
+
+${response.tests}
+
+## Questions
+
+${response.username}
+${response.email}`
 }
 
 // TODO: Create a function to write README file
