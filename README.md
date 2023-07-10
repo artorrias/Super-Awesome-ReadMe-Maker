@@ -1,21 +1,26 @@
-# y
+# Super Awesome README Maker
 
 ## Table of contents
 
 [Description](#description)
 [Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
 
 ## Description
 
-y
+The program takes in user responses from the terminal and generates a professional README file based on those answers
 
 ## Installation
 
-y
+You install the program by downloading the code from the github repository named Super-Awesome-README-Maker under my username
 
 ## Usage
 
-y
+It is allowed to be used how you see fit
 
 ## License
 
@@ -23,13 +28,13 @@ MIT
 
 ## Contributing
 
-y
+I contributed to the program alone
 
 ## Tests
 
-y
+You simply run 'node index.js' in the terminal while in the programs directory
 
 ## Questions
 
-y
-y
+sam.henson1119@outlook.com
+artorrias

@@ -1,11 +1,11 @@
-// TODO: Include packages needed for this application
+//includes necessary packages for the project
 const inquirer = require('inquirer');
 const fs = require('fs');
-// TODO: Create an array of questions for user input
+//creates array of questions to be used by inquirer
 const questions = ["What is the name of your project?","What does your program do?", "How do you install your program?", "How is your program allowed to be used?", "What license does your program have?", "Who contributed to the creation?", "How do you test your program?", "What is your email?","What is your GitHub username?"]; //put into message catagory for inquirer
 
 
-const test = function(response) {
+const test = function(response) { //function that returns the code for the readme using the given object
     return `# ${response.title}
 
 ## Table of contents
@@ -48,13 +48,13 @@ ${response.username}
 ${response.email}`
 }
 
-// TODO: Create a function to write README file
+//writes out the readme file and logs either an error or a success
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, test(data), (err) =>
             err ? console.log(error) : console.log('success'));
 }
 
-// TODO: Create a function to initialize app
+//calls inquirer and gathers responses in an object
 function init() {
     inquirer
     .prompt([
@@ -105,7 +105,7 @@ function init() {
             name: 'email',
         }
     ])
-    .then(response => {
+    .then(response => { //writes out the readme file and logs when it finishes
         writeToFile("README.md",response)
         console.log('responses logged');
     })
