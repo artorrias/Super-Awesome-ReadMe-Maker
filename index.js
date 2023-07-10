@@ -12,6 +12,11 @@ const test = function(response) {
 
 [Description](#description)
 [Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
 
 ## Description
 
@@ -76,7 +81,7 @@ function init() {
         {
             type: 'checkbox',
             message: questions[4],
-            choices: ["MIT", "OTHER", "OTHER", "OTHER"],
+            choices: ["MIT", "GPLv3", "Apache", "BSD 3-clause", "Unlincense", "BSD 2-clause", "LGPLv3", "AGPLv3", "Other"],
             name: 'license',
         },
         {
