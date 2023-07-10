@@ -42,5 +42,6 @@ You simply run 'node index.js' in the terminal while in the programs directory
 
 ## Questions
 
-sam.henson1119@outlook.com
-artorrias
+Email: sam.henson1119@outlook.com
+
+Github: artorrias

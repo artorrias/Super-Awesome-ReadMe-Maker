@@ -44,8 +44,9 @@ ${response.tests}
 
 ## Questions
 
-${response.username}
-${response.email}`
+Github: ${response.username}
+
+Email: ${response.email}`
 }
 
 //writes out the readme file and logs either an error or a success
@@ -97,12 +98,12 @@ function init() {
         {
             type: 'input',
             message: questions[7],
-            name: 'username',
+            name: 'email',
         },
         { 
             type: 'input',
             message: questions[8],
-            name: 'email',
+            name: 'username',
         }
     ])
     .then(response => { //writes out the readme file and logs when it finishes
